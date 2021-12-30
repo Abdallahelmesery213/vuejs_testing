@@ -1,12 +1,14 @@
 <template>
   <div class="header">
     <div class="container">
-      <div class="logo">Elmesery</div>
+      <div class="logo">
+        <router-link to="/" exact><a>ELMESERY</a></router-link>
+      </div>
       <ul>
         <router-link to="/" tag="li" exact> <a>Home</a> </router-link>
         <router-link to="/about" tag="li"> <a>About</a> </router-link>
-        <router-link to="/help" tag="li"> <a>Help</a> </router-link>
         <router-link to="/blog" tag="li"> <a>Blog</a> </router-link>
+        <router-link to="/apps" tag="li"> <a>Apps</a> </router-link>
       </ul>
     </div>
   </div>
@@ -27,6 +29,10 @@ export default {
     font-size: 24px;
     float: left;
     width: 200px;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
   }
   ul {
     width: calc(100% - 200px);
