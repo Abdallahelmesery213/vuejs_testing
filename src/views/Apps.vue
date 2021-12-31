@@ -7,12 +7,15 @@
     <hr class="mt-4 mb-4" />
     <ValidateForm />
     <hr class="mt-4 mb-4" />
+    <TodoList />
+    <hr class="mt-4 mb-4" />
   </div>
 </template>
 <script>
 import ShowHidePass from "../components/ShowHidePass.vue";
 import ProductTitle from "../components/ProductTitle.vue";
 import ValidateForm from "../components/ValidationForm.vue";
+import TodoList from "../components/TodoList.vue";
 export default {
   data: function () {
     return {
@@ -24,6 +27,7 @@ export default {
     ShowHidePass,
     ProductTitle,
     ValidateForm,
+    TodoList,
   },
   name: "apps",
 };
