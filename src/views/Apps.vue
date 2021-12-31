@@ -9,6 +9,16 @@
     <hr class="mt-4 mb-4" />
     <TodoList />
     <hr class="mt-4 mb-4" />
+    <ToggleClass />
+    <hr class="mt-4 mb-4" />
+    <Tabs />
+    <hr class="mt-4 mb-4" />
+    <ShowHideMess />
+    <hr class="mt-4 mb-4" />
+    <Accordion />
+    <hr class="mt-4 mb-4" />
+    <TextareaCalc />
+    <hr class="mt-4 mb-4" />
   </div>
 </template>
 <script>
@@ -16,6 +26,11 @@ import ShowHidePass from "../components/ShowHidePass.vue";
 import ProductTitle from "../components/ProductTitle.vue";
 import ValidateForm from "../components/ValidationForm.vue";
 import TodoList from "../components/TodoList.vue";
+import ToggleClass from "../components/ToggleClass.vue";
+import Tabs from "../components/Tabs.vue";
+import ShowHideMess from "../components/ShowHideMess.vue";
+import Accordion from "../components/Accordion.vue";
+import TextareaCalc from "../components/TextareaCalc";
 export default {
   data: function () {
     return {
@@ -28,6 +43,11 @@ export default {
     ProductTitle,
     ValidateForm,
     TodoList,
+    ToggleClass,
+    Tabs,
+    ShowHideMess,
+    Accordion,
+    TextareaCalc,
   },
   name: "apps",
 };
